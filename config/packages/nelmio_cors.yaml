@@ -1,0 +1,7 @@
+nelmio_cors:
+    defaults:
+        allow_credentials: false
+        allow_origin: ['http://localhost:3000'] # Ajoutez le domaine de votre application React ici
+        allow_headers: ['Content-Type', 'Authorization']
+        allow_methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+        max_age: 3600
